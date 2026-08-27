@@ -1,0 +1,24 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  # 1. Definir máquina
+  config.vm.box = "ubuntu/focal64"
+
+  # 2. Definir porta (redireciona a porta 80 do guest para a 8080 do host)
+  config.vm.network "forwarded_port", guest: 80, host: 8080
+
+  # 3. Definir memória e quantidade de núcleos de CPU (opcional)
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "1024" # Memória em MB
+    vb.cpus = 1        # Quantidade de vCPUs
+  end
+
+  # 4. Instalação e execução automática do Apache2 na VM
+  config.vm.provision "shell", inline: <<-SHELL
+    apt-get update
+    apt-get install -y apache2
+    systemctl enable apache2
+    systemctl start apache2
+  SHELL
+end

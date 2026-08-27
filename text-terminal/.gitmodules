@@ -1,0 +1,3 @@
+[submodule "biblioteca"]
+	path = biblioteca
+	url = https://github.com/nk-medeiros/text-tools.git
