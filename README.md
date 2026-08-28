@@ -1,37 +1,33 @@
-<<<<<<< HEAD
-# devops-aponti-turma5
-=======
->>>>>>> c795124d62325355bb89f60d4d9358282e5ff36c
 # 🚀 DevOps - Turma 5 (Aponti / FAP)
 
-Este repositório centraliza todas as atividades, laboratórios e projetos desenvolvidos ao longo do curso de **DevOps**. O objetivo de manter um único repositório é organizar as entregas e demonstrar a evolução de aprendizagem em infraestrutura, automação e práticas de integração/entrega contínua.
+Repositório centralizador das entregas práticas, projetos de código e documentações do curso de **DevOps**.
 
 ---
 
-## 📂 Estrutura do Repositório
+## 💻 Projetos & Repositórios (`/projetos`)
 
-| Pasta | Descrição | Tecnologias / Conceitos |
+| Pasta | Descrição | Tecnologias |
 | :--- | :--- | :--- |
-| **`terraform-pratica/`** | Exercícios e scripts de Infraestrutura como Código (IaC). | Terraform, HCL |
-| **`atividade-laboratorio/`** | Atividades práticas gerais desenvolvidas em aula. | DevOps, Linux, Bash |
-| **`text-tools/`** | Biblioteca em Python criada para manipulação e análise de textos. | Python |
-| **`text-terminal/`** | Interface de linha de comando (CLI) que consome a biblioteca `text-tools`. | Python, CLI |
-| **`Grupo4-DevOps/`** | Projetos e entregas desenvolvidas em equipe. | Trabalho em Equipe, CI/CD |
-| **`aponti-fap-devops-turma5-2026/`** | Projeto integrador e exercícios específicos do programa Aponti/FAP. | JavaScript, DevOps |
-| **`Puppet-em-DevOps/`** | Guia prático e exemplos de gerenciamento de configuração com Puppet. | Puppet, Automação |
-<<<<<<< HEAD
-| **`github-actions/`** | Automações e workflows de integração contínua (CI). | GitHub Actions, YAML |
-=======
->>>>>>> c795124d62325355bb89f60d4d9358282e5ff36c
+| **`terraform-pratica/`** | Exercícios e scripts de Infraestrutura como Código. | Terraform, HCL |
+| **`atividade-laboratorio/`** | Atividades práticas e testes de laboratório. | Linux, Bash |
+| **`text-tools/`** | Biblioteca em Python para manipulação de textos. | Python |
+| **`text-terminal/`** | CLI para manipulação de textos via terminal. | Python |
+| **`Grupo4-DevOps/`** | Projetos práticos desenvolvidos em equipe. | Git, CI/CD |
+| **`aponti-fap-devops-turma5-2026/`** | Exercícios e entregas do programa Aponti/FAP. | JavaScript, DevOps |
+| **`Puppet-em-DevOps/`** | Automações e guias de configuração com Puppet. | Puppet, Automação |
+
+---
+
+## 📄 Documentações & Relatórios (`/documentacoes`)
+
+| Arquivo / Pasta | Descrição | Formato |
+| :--- | :--- | :--- |
+| **`relatorio-exemplo.pdf`** | Descrição ou tema da atividade entregue em PDF. | PDF |
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **Linguagens:** Python, JavaScript, HCL (Terraform), Shell Script/Bash
-* **Ferramentas de Automação & IaC:** Terraform, Puppet
-<<<<<<< HEAD
+* **Linguagens:** Python, JavaScript, HCL (Terraform), Shell Script
+* **Automação & Gerenciamento:** Terraform, Puppet
 * **CI/CD & Versionamento:** Git, GitHub, GitHub Actions
-=======
-* **CI/CD & Versionamento:** Git, GitHub
->>>>>>> c795124d62325355bb89f60d4d9358282e5ff36c
